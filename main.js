@@ -1,9 +1,13 @@
 import React from 'react';
 
+require('./less/style.less');
+
 class MainPage extends React.Component {
   render() {
     return (
-      <h1>Hello</h1>
+      <div className="container">
+        <h1 className="title">Hello!</h1>
+      </div>
     );
   }
 }

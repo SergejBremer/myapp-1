@@ -1,1 +1,1 @@
-alert('It is alive!');
+require('./less/style.less');
